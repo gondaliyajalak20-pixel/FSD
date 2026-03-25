@@ -1,0 +1,46 @@
+
+<body>
+    <script>
+        let person={name:"A",age:22,city:"Ahmedabad"};
+        //using dot notation
+        person.age=30
+        //Using Bracket Notation
+        person["city"]="Surat"
+        //Using Variable Key
+        let key="name";
+        person[key]="Aryan";
+        console.log(person);
+    </script>
+
+</body>
+
+<body>
+<!-- //print date in Indian Standard Time -->
+<script>
+    const obj={"name":"xyz","age":17,"dob":"1997-03-14"}
+    console.log(obj.dob)
+    a=new Date(obj.dob);
+    console.log(a);
+</script>
+</body>
+<html>
+<!-- print date in Indian standard time while click on button -->
+<body>
+      
+
+    <button onclick="call()" style="color:red; backgroud-color:yellow; width: 200px; height:200px;border: 8px solid black; border-radius: 50%;">Click me</button>
+<script>
+    function call()
+    {
+      const obj={"name":"xyz","age":17,"dob":"1997-03-14"}
+    console.log(obj.dob)
+    a=new Date(obj.dob);
+    document.write(a);
+    }
+    </script>
+    </body>
+    </html>
+
+
+    
+
